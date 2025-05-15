@@ -1,4 +1,4 @@
 ## Install
-nvm use
-yarn install
-yarn deploy
+- nvm use
+- yarn install
+- yarn deploy
