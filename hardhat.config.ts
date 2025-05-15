@@ -9,6 +9,11 @@ dotenv.config();
 // Your private key
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
+if (!PRIVATE_KEY) {
+  console.log("############# PRIVATE_KEY is not set ##############");
+  throw new Error("PRIVATE_KEY is not set, export PRIVATE_KEY from meta mask");
+}
+
 const config: HardhatUserConfig = {
   solidity: {
     version: "0.8.20",

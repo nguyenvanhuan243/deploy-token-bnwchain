@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "hardhat run scripts/deploy.ts --network bnw",
-    "deploy-swap": "hardhat run scripts/deploySwap.ts --network bnw",
-    "verify": "hardhat verify --network bnw CONTRACT_ADDRESS \"Token Name\" \"SYMBOL\" INITIAL_SUPPLY"
+    "deploy": "hardhat run scripts/deploy.ts --network bnw"
   },
   "keywords": [],
   "author": "Huan Nguyen <nguyenvanhuan243@gmail.com>",
